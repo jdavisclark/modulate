@@ -1,0 +1,23 @@
+{
+  "name": "modulate",
+  "version": "0.0.1",
+  "description": "generic, pluggable, multi-backend module loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "module",
+    "package",
+    "require"
+  ],
+  "author": "Davis Clark",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.3.11"
+  },
+  "devDependencies": {
+    "expect": "^1.0.2",
+    "mocha": "^2.0.1"
+  }
+}
