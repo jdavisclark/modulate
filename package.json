@@ -4,7 +4,7 @@
   "description": "generic, pluggable, multi-backend module loader",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha --no-colors -R dot ./tests/"
   },
   "keywords": [
     "module",
@@ -14,7 +14,8 @@
   "author": "Davis Clark",
   "license": "ISC",
   "dependencies": {
-    "bluebird": "^2.3.11"
+    "bluebird": "^2.3.11",
+    "q": "^1.1.2"
   },
   "devDependencies": {
     "expect": "^1.0.2",

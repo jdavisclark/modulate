@@ -1,0 +1,20 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name": "test",
+			"shell_cmd": "$project_path/./node_modules/.bin/mocha --no-colors -R dot $project_path/tests/"
+		},
+		{
+			"name": "integration tests",
+			"shell_cmd": "$project_path/./node_modules/.bin/mocha --no-colors -R dot $project_path/integrationTests"
+		}
+	],
+}
